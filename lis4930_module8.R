@@ -1,5 +1,5 @@
 library(plyr)
-df <- read.table("~/Assignment 6 Dataset.txt", header = TRUE, sep = ",")
+df <- read.table("Assignment 6 Dataset.txt", header = TRUE, sep = ",")
 df
 StudentAverage = dlply(df,"Sex",transform,Grade.Average=mean(Grade))
 StudentAverage

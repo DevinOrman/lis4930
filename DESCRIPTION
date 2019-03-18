@@ -1,0 +1,12 @@
+Package: Friedman
+Type: Package
+Title: Module #10 Exercise Package
+Version: 0.1
+Authors@R: person("Devin", "Orman", email = "orman@mail.usf.edu",
+              role = c("aut", "cre"))
+Description: This package is an example of an R package creation document,
+    this is the typical structure of an R package description file.
+Depends: R (>= 3.1.2)
+License: CCO
+Encoding: UTF-8
+LazyData: true
